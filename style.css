@@ -98,9 +98,9 @@ body, h1, ul, li, a {
     display: inline-block;
 }
 
-.dropdown-content li a {
-    /* padding: 5px 5px; */
-}
+/* .dropdown-content li a {
+    padding: 5px 5px; 
+} */
 
 .dropdown-content li a:hover {
     color: #676767;
