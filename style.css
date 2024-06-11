@@ -63,6 +63,14 @@ body, h1, ul, li, a {
     margin: 0 10px;
 }
 
+.nav li:active {
+        color: #003B6D;
+    }
+
+.nav ul li a.current {
+    color: #003B6D;
+}
+
 .nav a {
     color: #fff;
     transition: color 0.3s ease;
@@ -104,6 +112,8 @@ body, h1, ul, li, a {
         display: block;
         width: 100%;
     }
+
+    
 }
 
 /* Add some padding to the main content to avoid overlap with navbar */
